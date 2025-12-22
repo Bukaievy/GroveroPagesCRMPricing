@@ -3,7 +3,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 import { Header } from "@/components/booking/Header";
 import { Hero } from "@/components/booking/Hero";
 import { ReassuranceBlock } from "@/components/booking/ReassuranceBlock";
-import { CalendarEmbed } from "@/components/booking/CalendarEmbed";
+import { PricingRequestForm } from "@/components/booking/PricingRequestForm";
 import { OutcomeSection } from "@/components/booking/OutcomeSection";
 import { Footer } from "@/components/booking/Footer";
 
@@ -39,7 +39,7 @@ const TestBooking = () => {
       <main className="flex-1">
         <Hero />
         
-        <CalendarEmbed />
+        <PricingRequestForm />
 
         <div className="mt-6 text-center">
           <p className="text-sm text-muted-foreground leading-relaxed">
