@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "MiniGro by Grovero",
-    "description": "Quick check to see if MiniGro practically fits your kitchen. Usually clear within a 10–15 minute call."
+    "description": "Request pricing ranges and availability for MiniGro. We will share the information personally and you decide next steps."
   },
   "header": {
     "home": "Home",
@@ -9,25 +9,48 @@
     "logoSubtitle": "by Grovero"
   },
   "hero": {
-    "title": "Quick check if MiniGro practically fits your kitchen",
-    "subtitle": "Unsure whether MiniGro is a practical fit for your space, workflow, or team? This is usually clear within 10–15 minutes."
+    "title": "Request pricing & availability for MiniGro",
+    "subtitle": "Get a clear overview of current pricing ranges, configuration options, and expected availability."
+  },
+  "form": {
+    "intro": "If you’re considering MiniGro and would like clarity on pricing and timelines before booking a call, you can request this information here.",
+    "fields": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "businessLabel": "Business name",
+      "businessPlaceholder": "Restaurant, hotel, catering company, etc.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@company.com",
+      "useLabel": "Intended use",
+      "usePlaceholder": "Select an option",
+      "useOptions": [
+        "Restaurant / café",
+        "Hotel / hospitality",
+        "Catering / foodservice",
+        "Corporate / workplace",
+        "Other"
+      ]
+    },
+    "submit": "Request pricing & availability",
+    "successTitle": "Thanks, we’ll get back to you shortly.",
+    "successBody": "We’ll share current pricing ranges and availability, and let you know what makes sense for your situation.",
+    "successAlt": "Prefer to talk it through instead? You can also schedule a 15-minute check-in anytime.",
+    "successAltCta": "Schedule a 15-minute check-in",
+    "successAltHref": "https://call.go.grovero.com"
   },
   "outcome": {
-    "title": "What we’ll cover",
+    "title": "What you’ll receive",
     "bullets": [
-      "Your kitchen setup and available space",
-      "How MiniGro fits into daily service",
-      "Whether it makes sense to continue (or not)"
+      "Current pricing ranges and configuration options",
+      "Expected availability and lead times",
+      "Guidance on what setup makes sense for your kitchen"
     ]
   },
-  "calendar": {
-    "fallback": "Prefer email? info@grovero.com"
-  },
   "bookingReassurance": {
-    "noSales": "No sales pitch. Just a quick call to see if MiniGro is a fit.",
+    "noSales": "No sales pitch. We’ll share the information personally and let you decide next steps.",
     "credibility": [
       "Developed and assembled in the Netherlands",
-      "Setup guidance and support included",
+      "Guidance and support included",
       "Built for professional kitchens"
     ]
   },
