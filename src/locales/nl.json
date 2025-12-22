@@ -25,9 +25,9 @@
       "usePlaceholder": "Kies een optie",
       "useOptions": [
         "Restaurant / café",
-        "Hotel / hospitality",
-        "Catering / foodservice",
-        "Corporate / workplace",
+        "Hotel / horeca",
+        "Catering",
+        "Zakelijke catering / bedrijfsrestaurant",
         "Anders"
       ]
     },
