@@ -16,7 +16,7 @@ export const Hero = () => {
 
           {/* Subtitle */}
           <p
-            className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto animate-fade-in-up text-balance"
+            className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-xl mx-auto animate-fade-in-up text-balance"
             style={{ animationDelay: "0.1s" }}
           >
             {t.hero.subtitle}
