@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "MiniGro by Grovero",
-    "description": "Korte check om te zien of MiniGro praktisch past in jullie keuken. Meestal binnen 10–15 minuten duidelijk."
+    "description": "Vraag prijsranges en beschikbaarheid van MiniGro aan. We delen de informatie persoonlijk en jij bepaalt de vervolgstap."
   },
   "header": {
     "home": "Home",
@@ -9,27 +9,49 @@
     "logoSubtitle": "by Grovero"
   },
   "hero": {
-    "title": "Korte check of MiniGro praktisch past in jullie keuken",
-    "subtitle": "Twijfel je of MiniGro praktisch past bij jullie ruimte, werkwijze of team? Dat is meestal binnen 10–15 minuten duidelijk.",
-    "bullets": []
+    "title": "Vraag prijzen en beschikbaarheid van MiniGro aan",
+    "subtitle": "Ontvang een helder overzicht van actuele prijsranges, configuratie-opties en verwachte beschikbaarheid."
   },
-  "calendar": {
-    "fallback": "Liever mailen? info@grovero.com"
+  "form": {
+    "intro": "Overweeg je MiniGro en wil je eerst duidelijkheid over prijzen en planning, voordat je een gesprek plant? Dan kun je hier deze informatie opvragen.",
+    "fields": {
+      "nameLabel": "Naam",
+      "namePlaceholder": "Jouw naam",
+      "businessLabel": "Bedrijfsnaam",
+      "businessPlaceholder": "Restaurant, hotel, cateringbedrijf, etc.",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "jij@bedrijf.nl",
+      "useLabel": "Toepassing",
+      "usePlaceholder": "Kies een optie",
+      "useOptions": [
+        "Restaurant / café",
+        "Hotel / hospitality",
+        "Catering / foodservice",
+        "Corporate / workplace",
+        "Anders"
+      ]
+    },
+    "submit": "Vraag prijzen en beschikbaarheid aan",
+    "successTitle": "Dankjewel, we komen er snel bij je op terug.",
+    "successBody": "We delen de actuele prijsranges en beschikbaarheid, en geven aan wat logisch is voor jullie situatie.",
+    "successAlt": "Liever even overleggen? Je kunt ook altijd een 15-minuten check-in plannen.",
+    "successAltCta": "Plan een 15-minuten check-in",
+    "successAltHref": "https://call.go.grovero.com"
+  },
+  "outcome": {
+    "title": "Wat je ontvangt",
+    "bullets": [
+      "Indicatieve prijsranges en configuratie-opties",
+      "Verwachte beschikbaarheid en levertijden",
+      "Inzicht in welke opstelling logisch is voor jullie keuken"
+    ]
   },
   "bookingReassurance": {
-    "noSales": "Geen verkooppraatje. Gewoon een korte call om te kijken of MiniGro past.",
+    "noSales": "Geen verkooppraatje. We delen de informatie persoonlijk en jij bepaalt de vervolgstap.",
     "credibility": [
       "Ontwikkeld en geassembleerd in Nederland",
       "Begeleiding en support inbegrepen",
       "Ontworpen voor professionele keukens"
-    ]
-  },
-  "outcome": {
-    "title": "Wat we bespreken",
-    "bullets": [
-      "Jullie keukenopstelling en beschikbare ruimte",
-      "Hoe MiniGro past binnen de dagelijkse service",
-      "Of het logisch is om verder te kijken (of juist niet)"
     ]
   },
   "footer": {
