@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand Colors - Grovero Teal/Green */
+    --grovero-primary: 168 35% 29%;
+    --grovero-primary-light: 168 35% 35%;
+    --grovero-primary-dark: 168 35% 24%;
+
+    /* Neutral Palette */
+    --background: 0 0% 100%;
+    --background-subtle: 0 0% 98%;
+    --foreground: 220 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 15%;
+
+    /* Primary - Grovero Teal */
+    --primary: 168 35% 29%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Light Gray */
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 220 15% 15%;
+
+    /* Muted */
+    --muted: 0 0% 96%;
+    --muted-foreground: 220 10% 50%;
+
+    /* Accent */
+    --accent: 168 35% 95%;
+    --accent-foreground: 168 35% 29%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* UI Elements */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 168 35% 29%;
+
+    --radius: 0.75rem;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1),
+      0 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1),
+      0 4px 6px -4px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.1),
+      0 8px 10px -6px hsl(0 0% 0% / 0.1);
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 220 15% 30%;
+    --sidebar-primary: 168 35% 29%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 168 35% 95%;
+    --sidebar-accent-foreground: 168 35% 29%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 168 35% 29%;
+  }
+
+  .dark {
+    --grovero-primary: 168 35% 45%;
+    --grovero-primary-light: 168 35% 55%;
+    --grovero-primary-dark: 168 35% 35%;
+
+    --background: 220 15% 8%;
+    --background-subtle: 220 15% 12%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 15% 12%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 15% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 168 35% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 220 15% 18%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 168 35% 15%;
+    --accent-foreground: 168 35% 60%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 168 35% 45%;
+
+    --sidebar-background: 220 15% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 168 35% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 168 35% 15%;
+    --sidebar-accent-foreground: 168 35% 60%;
+    --sidebar-border: 220 15% 20%;
+    --sidebar-ring: 168 35% 45%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold tracking-tight text-foreground;
+  }
+}
+
+@layer utilities {
+  .container-grovero {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-spacing {
+    @apply py-16 md:py-24;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

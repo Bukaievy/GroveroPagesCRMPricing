@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "MiniGro by Grovero",
+    "description": "Korte check om te zien of MiniGro praktisch past in jullie keuken. Meestal binnen 10–15 minuten duidelijk."
+  },
+  "header": {
+    "home": "Home",
+    "logo": "MiniGro",
+    "logoSubtitle": "by Grovero"
+  },
+  "hero": {
+    "title": "Korte check of MiniGro praktisch past in jullie keuken",
+    "subtitle": "Twijfel je of MiniGro praktisch past bij jullie ruimte, werkwijze of team? Dat is meestal binnen 10–15 minuten duidelijk.",
+    "bullets": []
+  },
+  "calendar": {
+    "fallback": "Liever mailen? info@grovero.com"
+  },
+  "bookingReassurance": {
+    "noSales": "Geen verkooppraatje. Gewoon een korte call om te kijken of MiniGro past.",
+    "credibility": [
+      "Ontwikkeld en geassembleerd in Nederland",
+      "Begeleiding en support inbegrepen",
+      "Ontworpen voor professionele keukens"
+    ]
+  },
+  "outcome": {
+    "title": "Wat we bespreken",
+    "bullets": [
+      "Jullie keukenopstelling en beschikbare ruimte",
+      "Hoe MiniGro past binnen de dagelijkse service",
+      "Of het logisch is om verder te kijken (of juist niet)"
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Grovero. Alle rechten voorbehouden."
+  }
+}
