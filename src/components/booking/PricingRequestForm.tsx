@@ -52,7 +52,7 @@ export const PricingRequestForm = () => {
   };
 
   return (
-    <section className="pt-6 pb-6 bg-background">
+    <section className="py-12 bg-muted/40">
       <div className="container-grovero">
         <div className="max-w-2xl mx-auto">
           <div className="rounded-2xl bg-card border border-border shadow-grovero-lg p-6 sm:p-8">
@@ -60,7 +60,7 @@ export const PricingRequestForm = () => {
               <>
                 {/* Intro */}
                 {t.form?.intro && (
-                  <p className="text-muted-foreground mb-6 text-center">
+                  <p className="text-muted-foreground mb-6 text-center text-base max-w-md mx-auto">
                     {t.form.intro}
                   </p>
                 )}
